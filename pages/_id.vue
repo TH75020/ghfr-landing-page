@@ -103,7 +103,7 @@ export default {
     const id = route.params.id
     const data = await $axios
       .$get(
-        'https://v2-api.sheety.co/612035a23ef10236acde20367e8a78e8/ghfr/feuille1'
+        'https://api.sheety.co/135a000fb8fed3dc094a83e5a7111cba/landingPageGhfr/testghfr'
       )
       .then(data => data.feuille1)
       .catch(err => err)
@@ -120,3 +120,4 @@ export default {
 
 }
 </script>
+
